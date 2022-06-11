@@ -1,0 +1,18 @@
+img {
+    border-radius: 17px;
+}
+#welcome-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 614px) {
+    #welcome-text {
+        margin-top: 40%;
+    }
+}
+
+#welcome-text > span {
+    color: orange;
+}
